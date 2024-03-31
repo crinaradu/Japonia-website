@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Japonia - Contact</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="res/icon.jpeg" type="image/jpg" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<script type="text/javascript" src="res/jquery.js"></script>
+</head>
+<body>
+	<header id="menu" class="shodo midContent">
+		<div id="colorWrapper" class="minka"></div>
+		<h1 id="title">SHODŌ</h1>
+		<div id="buttons">
+			<a href="index.html">Pagina Principală</a>
+			<a href="minka.html">Minka</a>
+			<a href="ceai.html">Ceremonia Ceaiului</a>
+			<a href="gradini.html">Grădini Japoneze</a>
+			<a href="shodo.html">Shodō</a>
+			<a href="contact.html">Contact</a>
+		</div>
+	</header>
+
+
+	<section id="textBox" class="midContent"> 
+		<h1>&nbsp; &nbsp; &nbsp; Caligrafia japoneză shodō (書道) este, ca și caligrafia în celelalte țări din sfera culturală chinezească, o ramură a artelor frumoase.
+
+Istoria caligrafiei japoneze începe cu introducerea scrisului chinezesc în secolul 5 e.n.
+		<br><br>
+		&nbsp; &nbsp; &nbsp; Primul text de caligrafie japoneză care mai există se pare că este un comentariu despre Sutra Lotusului scris de prințul Shōtoku (574-622). Dar călugărul Kūkai (774-835) este probabil cel care a avut cea mai mare influență în a dezvolta caligrafia japoneză într-o formă estetică.
+		<br><br>
+		&nbsp; &nbsp; &nbsp; Caligrafia este și una din disciplinele pe care cei care practică artele marțiale trebuie să le studieze. De exemplu kosho shorei ryu spune că arta caligrafiei este indispensabilă unui adevărat bushi. Adevarata artă a caligrafiei implică o trăire interioară exact ca un luptator care se pregătește de luptă și iși întâmpină moartea privind-o în față, spunea Bruce Juchnik, ultimul discipol al lui James Mitose, întemeietorul stilului kosho shorei ryu.</h1>
+	</section>
+
+	<section id="bigGallery" class="midContent">
+		<img src="s1.jpg" onclick="openModal();currentSlide(1)" class="bigGalleryImg">
+		<img src="s16.jpg" onclick="openModal();currentSlide(2)" class="bigGalleryImg">
+		<img src="s11.jpg" onclick="openModal();currentSlide(3)" class="bigGalleryImg">
+		<img src="s2.jpg" onclick="openModal();currentSlide(4)" class="bigGalleryImg">
+		<img src="s12.jpg" onclick="openModal();currentSlide(5)" class="bigGalleryImg">
+		<img src="s5.jpg" onclick="openModal();currentSlide(6)" class="bigGalleryImg">
+		<img src="s14.jpg" onclick="openModal();currentSlide(7)" class="bigGalleryImg">
+		<img src="s10.jpg" onclick="openModal();currentSlide(8)" class="bigGalleryImg">
+	</section>
+
+	<footer class="midContent isFooter">
+		Atestat profesional la Informatică realizat de Crina Radu <br>
+        Clasa 12B, C.N.E.T. Târgu Jiu <br>
+        Profesor coordonator Olaru Valentin
+	</footer>
+
+	<div id="myModal" class="modal">
+	  <span class="close cursor" onclick="closeModal()">&times;</span>
+	  <div class="modal-content">
+
+	    <div class="mySlides">
+	      <div class="numbertext">1 / 8</div>
+	      <img src="s1.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">2 / 8</div>
+	      <img src="s16.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">3 / 8</div>
+	      <img src="s11.jpg" style="width:100%">
+	    </div>
+		
+		<div class="mySlides">
+	      <div class="numbertext">4 / 8</div>
+	      <img src="s2.jpg" style="width:100%">
+	    </div>
+		
+		<div class="mySlides">
+	      <div class="numbertext">5 / 8</div>
+	      <img src="s12.jpg" style="width:100%">
+	    </div>
+		
+		<div class="mySlides">
+	      <div class="numbertext">6 / 8</div>
+	      <img src="s5.jpg" style="width:100%">
+	    </div>
+		
+		<div class="mySlides">
+	      <div class="numbertext">7 / 8</div>
+	      <img src="s14.jpg" style="width:100%">
+	    </div>
+		
+		<div class="mySlides">
+	      <div class="numbertext">8 / 8</div>
+	      <img src="s10.jpg" style="width:100%">
+	    </div>
+
+	    <!-- Next/previous controls -->
+	    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	    
+	  </div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="lightbox.js"></script>
+</body>
+</html>

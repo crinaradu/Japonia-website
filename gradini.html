@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Japonia - Contact</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="res/icon.jpeg" type="image/jpg" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<script type="text/javascript" src="res/jquery.js"></script>
+</head>
+<body>
+	<header id="menu" class="gradini midContent">
+		<div id="colorWrapper" class="gradini"></div>
+		<h1 id="title">Grădini Japoneze</h1>
+		<div id="buttons">
+			<a href="index.html">Pagina Principală</a>
+			<a href="minka.html">Minka</a>
+			<a href="ceai.html">Ceremonia Ceaiului</a>
+			<a href="gradini.html">Grădini Japoneze</a>
+			<a href="shodo.html">Shodō</a>
+			<a href="contact.html">Contact</a>
+		</div>
+	</header>
+
+
+	<section id="textBox" class="midContent"> 
+		<h1>&nbsp; &nbsp; &nbsp; Grădinile japoneze (日本庭園 nihon teien) sunt grădini tradiționale care creează peisaje idealizate în miniatură, adesea având un grad ridicat de abstractizare și stilizare. Grădinile nobilimii și ale împăratului au fost designate pentru recreare și plăcere estetică, în timp ce grădinile templelor buddhiste au fost create pentru contemplare și meditație.
+		<br><br>
+		&nbsp; &nbsp; &nbsp; Printre diferite stiluri de grădini japoneze se numără și karesansui, grădini japoneze de roci ori Grădini Zen, ce sunt grădini de meditație; roji, grădini simple, rustice cu pavilioane unde servirea ceaiului, în cadrul ceremoniei ceaiului, ește principala ocupației; kaiyū-shiki-teien, grădini de promenadă sau de plimbare, în care vizitatorul urmărește un anumit traseu pentru a descoperi peisaje executate cu remarcabilă precizie și tsubo-niwa, mici grădini ce înfrumusețează curțile interioare ale unor clădiri, care sunt astfel construite.
+
+
+		<br><br>
+		&nbsp; &nbsp; &nbsp; Inițial, grădinile japoneze au fost create și realizate sub puternica influență a grădinilor chinezești, dar, încet și gradat, designerii de grădini japoneze au găsit propria lor abordare, dezvoltând estetica lor proprie, în parte datorită culturii japoneze (deosebită de cea chinezească) și în parte datorită peisajului natural și aspectului diferit al reliefului japonez, precum și a materialelor locale.</h1>
+	</section>
+
+	<section id="bigGallery" class="midContent">
+		<img src="gj1.jpg" onclick="openModal();currentSlide(1)" class="bigGalleryImg">
+		<img src="gj2.jpg" onclick="openModal();currentSlide(2)" class="bigGalleryImg">
+		<img src="gj3.jpg" onclick="openModal();currentSlide(3)" class="bigGalleryImg">
+		<img src="gj4.jpg" onclick="openModal();currentSlide(4)" class="bigGalleryImg">
+		<img src="gj5.jpg" onclick="openModal();currentSlide(5)" class="bigGalleryImg">
+		<img src="gj6.jpg" onclick="openModal();currentSlide(6)" class="bigGalleryImg">
+		<img src="gj7.jpg" onclick="openModal();currentSlide(7)" class="bigGalleryImg">
+		<img src="gj9.jpg" onclick="openModal();currentSlide(8)" class="bigGalleryImg">
+	</section>
+
+	<footer class="midContent isFooter">
+		Atestat profesional la Informatică realizat de Crina Radu <br>
+        Clasa 12B, C.N.E.T. Târgu Jiu <br>
+        Profesor coordonator Olaru Valentin
+	</footer>
+
+	<div id="myModal" class="modal">
+	  <span class="close cursor" onclick="closeModal()">&times;</span>
+	  <div class="modal-content">
+
+	    <div class="mySlides">
+	      <div class="numbertext">1 / 8</div>
+	      <img src="gj1.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">2 / 8</div>
+	      <img src="gj2.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">3 / 8</div>
+	      <img src="gj3.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">4 / 8</div>
+	      <img src="gj4.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">5 / 8</div>
+	      <img src="gj5.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">6 / 8</div>
+	      <img src="gj6.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">7 / 8</div>
+	      <img src="gj7.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">8 / 8</div>
+	      <img src="gj9.jpg" style="width:100%">
+	    </div>
+
+	    <!-- Next/previous controls -->
+	    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	    
+	  </div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="lightbox.js"></script>
+</body>
+</html>

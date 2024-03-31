@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Japonia</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="res/icon.jpeg" type="image/jpg" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<script type="text/javascript" src="res/jquery.js"></script>
+</head>
+<body>
+	<header id="menu" class="midContent">
+		<div id="colorWrapper"></div>
+		<h1 id="title">JAPONIA</h1>
+		<div id="buttons">
+			<a href="index.html">Pagina Principală</a>
+			<a href="minka.html">Minka</a>
+			<a href="ceai.html">Ceremonia Ceaiului</a>
+			<a href="gradini.html">Grădini Japoneze</a>
+			<a href="shodo.html">Shodō</a>
+			<a href="contact.html">Contact</a>
+		</div>
+	</header>
+
+
+	<section id="cards">
+		<div class="card">
+			<div class="cardRight">
+				<h1>Japonia</h1>
+			</div>
+			<div class="cardLeft">
+				<h3>&nbsp; Este o țară insulară din Asia de Est, situată pe un lanț de insule aflate între Oceanul Pacific și Marea Japoniei, la est de Peninsula Coreeană.</h3>
+			</div>
+		</div>
+
+		<div class="card newCard">
+			<div class="cardRight2">
+				<h3>Denumirea oficială este 日本国 Nipponkoku, textual „Țara de la originea soarelui.”</h3>
+			</div>
+			<div class="cardLeft2">
+				<h1>Nipponkoku</h1>
+			</div>
+		</div>
+	</section>
+	
+	<section id="gallery" class="midContent">
+		<img src="umbrela.jpg" onclick="openModal();currentSlide(1)">
+
+		<div class="galleryContent demo">
+			<h1>Potrivit legendei, Japonia a fost creată de către zei care au înfipt o sabie în ocean, la scoaterea ei formându-se patru picături ce au devenit insulele principale, precum și o multitudine de insule mici (peste 6000).</h1>
+		</div>
+
+		<img src="girl.jpg" onclick="openModal();currentSlide(2)">
+
+		<div class="galleryContent demo">
+			<h1>Japonia este a treia cea mai mare economie a lumii (conform PIB-ului nominal) și al cincilea cel mai mare exportator și importator.</h1>
+		</div>
+
+		<img src="drum.jpg" onclick="openModal();currentSlide(3)">
+
+		<div class="galleryContent demo">
+			<h1>Japonia este un stat membru al ONU, OCDE, G7 și G20, și este considerată o mare putere.</h1>
+		</div>
+	</section>
+
+	<div id="myModal" class="modal">
+	  <span class="close cursor" onclick="closeModal()">&times;</span>
+	  <div class="modal-content">
+
+	    <div class="mySlides">
+	      <div class="numbertext">1 / 3</div>
+	      <img src="umbrela.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">2 / 3</div>
+	      <img src="girl.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">3 / 3</div>
+	      <img src="drum.jpg" style="width:100%">
+	    </div>
+
+	    <!-- Next/previous controls -->
+	    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	    <!-- Caption text -->
+	    <div class="caption-container">
+	      <p id="caption">Poze</p>
+	    </div>
+
+	  
+	  </div>
+	</div>
+
+	<footer class="midContent isFooter">
+		Atestat profesional la Informatică realizat de Crina Radu <br>
+        Clasa 12B, C.N.E.T. Târgu Jiu <br>
+        Profesor coordonator Olaru Valentin
+	</footer>
+
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="lightbox.js"></script>
+</body>
+</html>

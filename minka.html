@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Japonia - Contact</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="res/icon.jpeg" type="image/jpg" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<script type="text/javascript" src="res/jquery.js"></script>
+</head>
+<body>
+	<header id="menu" class="minka midContent">
+		<div id="colorWrapper" class="minka"></div>
+		<h1 id="title">MINKA</h1>
+		<div id="buttons">
+			<a href="index.html">Pagina Principală</a>
+			<a href="minka.html">Minka</a>
+			<a href="ceai.html">Ceremonia Ceaiului</a>
+			<a href="gradini.html">Grădini Japoneze</a>
+			<a href="shodo.html">Shodō</a>
+			<a href="contact.html">Contact</a>
+		</div>
+	</header>
+
+
+	<section id="textBox" class="midContent"> 
+		<h1>&nbsp; &nbsp; &nbsp; Minka (民家 Minka) este numele generic al caselor japoneze ale oamenilor de rând, construite după metoda arhitecturală tradițională, înainte ca aceasta să fie influențată de arhitectura occidentală la sfârșitul secolului al XIX-lea.
+
+Casele țărănești se numesc nōka, cele ale orășenilor machiya, iar cele ale pescarilor gyoka.
+		<br><br>
+		&nbsp; &nbsp; &nbsp; Bârnele, coloanele, unii pereți, tavanul, unele acoperișuri sunt din lemn. Alți pereți sunt din șipci de bambus acoperit cu mortar, iar alte acoperișuri sunt din țigle din lut ars. Iarbă a fost folosită pentru unele tipuri de acoperișuri, iar paie pentru confecționarea podelelor tatami. Rocile sunt folosite pentru fundație dar nu pentru pereți.
+		<br><br>
+&nbsp; &nbsp; &nbsp; Stilul caselor minka diferă mult depinzând de regiune sau perioada în care au fost construite.
+
+Ușile exterioare, glisante, se numesc shōji, iar cele interioare, tot glisante, fusuma.
+
+În mijlocul încăperii centrale este o vatră deschisă (irori) fără coș, iar mâncarea se gătește pe soba numită kamado.
+
+	</section>
+
+	<section id="bigGallery" class="midContent">
+		<img src="m1.jpg" onclick="openModal();currentSlide(1)" class="bigGalleryImg">
+		<img src="m2.jpg" onclick="openModal();currentSlide(2)" class="bigGalleryImg">
+		<img src="m3.jpg" onclick="openModal();currentSlide(3)" class="bigGalleryImg">
+		<img src="m4.jpg" onclick="openModal();currentSlide(4)" class="bigGalleryImg">
+		<img src="m5.jpg" onclick="openModal();currentSlide(5)" class="bigGalleryImg">
+		<img src="m6.jpg" onclick="openModal();currentSlide(6)" class="bigGalleryImg">
+		<img src="m9.jpg" onclick="openModal();currentSlide(7)" class="bigGalleryImg">
+		<img src="m8.jpg" onclick="openModal();currentSlide(8)" class="bigGalleryImg">
+	</section>
+
+	<footer class="midContent isFooter">
+		Atestat profesional la Informatică realizat de Crina Radu <br>
+        Clasa 12B, C.N.E.T. Târgu Jiu <br>
+        Profesor coordonator Olaru Valentin
+	</footer>
+
+	<div id="myModal" class="modal">
+	  <span class="close cursor" onclick="closeModal()">&times;</span>
+	  <div class="modal-content">
+
+	    <div class="mySlides">
+	      <div class="numbertext">1 / 8</div>
+	      <img src="m1.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">2 / 8</div>
+	      <img src="m2.jpg" style="width:100%">
+	    </div>
+
+	    <div class="mySlides">
+	      <div class="numbertext">3 / 8</div>
+	      <img src="m3.jpg" style="width:100%">
+	    </div>
+		
+		<div class="mySlides">
+	      <div class="numbertext">4 / 8</div>
+	      <img src="m4.jpg" style="width:100%">
+	    </div>
+		
+		<div class="mySlides">
+	      <div class="numbertext">5 / 8</div>
+	      <img src="m5.jpg" style="width:100%">
+	    </div>
+		
+		<div class="mySlides">
+	      <div class="numbertext">6 / 8</div>
+	      <img src="m6.jpg" style="width:100%">
+	    </div>
+		
+		<div class="mySlides">
+	      <div class="numbertext">7 / 8</div>
+	      <img src="m9.jpg" style="width:100%">
+	    </div>
+		
+		<div class="mySlides">
+	      <div class="numbertext">8 / 8</div>
+	      <img src="m8.jpg" style="width:100%">
+	    </div>
+
+	    <!-- Next/previous controls -->
+	    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	    
+	  </div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="lightbox.js"></script>
+</body>
+</html>
